@@ -1,0 +1,2417 @@
+@font-face {
+    font-family: 'Exo2-Regular';
+    src: url(../fonts/exo-2/Exo2-Regular.otf);
+}
+
+body {
+    font-family: 'Exo2-Regular';
+    overflow-x: hidden;
+}
+
+.main-select option {
+    background: #202020;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#loader {
+    height:100vh;
+    margin-top: -20px;
+    width: 100%;
+    background: url('../images/loader-desktop.gif') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#loader img {
+    position: absolute;
+    left: 47%;
+    top: 47%;
+    z-index: 1;
+    width: 300px;
+    margin: -114px 0 0 -109px;
+}
+
+#loader h3 {
+    color: white;
+}
+
+#myDiv {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    line-height: 1.5;
+}
+
+h2 {
+    color: rgb(13, 17, 45);
+}
+
+#myModal .modal-content {
+    padding: 30px;
+    line-height: 2.0;
+    margin-top: 7pc;
+}
+
+#myModal .modal-transfer-bike {
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+#myModal .modal-footer .btn-cancle {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#myModal .modal-footer .btn-confirm {
+    float: left;
+    margin-left: 0 auto;
+    margin-bottom: 5px;
+}
+
+.fa-exclamation-triangle {
+    margin-left: 30px;
+}
+
+#myModal .modal-footer button {
+    width: 113px;
+}
+
+.modal-header {
+    background-color: transparent;
+    color: #d01717c4 !important;
+    text-align: center;
+    font-size: 60px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    margin-top: 10pc;
+}
+
+.modal-body p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.modal-footer button {
+    width: auto;
+    margin: 0px;
+}
+
+#myModal .modal-footer {
+    margin-left:;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Exo2-Regular';
+}
+
+a:hover {
+    color: #83afd4;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+
+}
+
+ul {
+    padding-left: 0px !important;
+}
+
+.navbar-header button {
+    background: white;
+    margin-right: 40px;
+}
+
+.navbar-header img {
+    margin-left: 80px;
+}
+
+span.icon-bar {
+    background: black;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -15px;
+    margin-right: -41px;
+    text-align: left;
+    text-indent: 5px;
+    background-color: #0D112D !important;
+    color: #FFF;
+    font-size: 1.1em;
+}
+
+.dropdown-menu h4 {
+    text-align: left;
+    text-indent: 5px;
+}
+
+.dropdown-menu hr {
+    margin: 1px 0px 0px 0px;
+    padding-top: 5px;
+}
+
+.navbar {
+    height: 75px;
+    background-color: #0d112d;
+}
+
+.caret {
+    margin: 4px 0px 0px 24px;
+    vertical-align: top;
+}
+
+.dropdown img {
+    margin-top: -16px;
+}
+.dropdown .dropdown-toggle .img-circle{
+    width: 50px;
+    height: 50px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 10px;
+    font-size: 14px;
+    position: relative;
+    margin-right: 62px;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px 10px 20px;
+}
+
+ul.nav.navbar-nav.navbar-right li a:focus, ul.nav.navbar-nav.navbar-right li a:active {
+    background-color: transparent;
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover {
+    color: #bfc1cd;
+    background-color: transparent;
+}
+
+.dropdown-toggle {
+    background-color: transparent !important;
+}
+
+.dropdown ul li a {
+    padding: 8px !important;
+}
+
+.dropdown-menu li a p {
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.main-banner {
+    width: 100%;
+    background-color: #0d112d;
+    padding-bottom: 30px;
+    margin-bottom: 1%;
+}
+
+.main-banner h1 {
+    margin-top: 115px;
+    color: #fff;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.main-banner h1 {
+    font-size: 40px;
+}
+
+.main-banner select {
+    margin-top: 25px;
+    margin-right: 15px;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+
+.main-banner button {
+    margin-top: 25px; 
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid grey;
+}
+
+.main-banner button:hover {
+    color: #0d112d;
+    background: white;
+    border: 1px solid grey;
+}
+
+button, input, select, textarea {
+    padding-left: 10px !important;
+}
+
+.client-adv h2 {
+
+    color: rgb(13, 17, 45);
+}
+
+.carsoul-logo {
+    padding: 20px 0px;
+
+}
+
+.active {
+    background-color: transparent;
+}
+
+.image-logo {
+    display: inline-block;
+    width: 150px;
+    height: 146px;
+    padding: 20px;
+
+}
+
+.image-logo .logo-text {
+    visibility: hidden;
+    background-color: transparent;
+    z-index: 1;
+    color: white;
+    margin-left: 0px;
+    opacity: 0;
+    transition: opacity 1s;
+    text-align: center;
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 10px;
+    left: 100px;
+    padding: 36px;
+    font-weight: bold;
+}
+
+.image-logo:hover .logo-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.owl-item active {
+    background: transparent;
+}
+
+.brands {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.steps {
+    width: 100%;
+    height: 550px;
+    background: #ecf0f1;
+    max-height: 800px;
+    background-image: url("../images/Untitled.jpg");
+    background-repeat: round
+}
+
+.text, .repair, .repair h2 {
+    padding-bottom: 30px;
+}
+
+.repair, .repair h2 {
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.repair button {
+    width: 200px;
+    height: 52px;
+    font-size: 18px;
+}
+
+.steps .well {
+    background: #ffffff2e;
+    height: 237px;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.steps .well:hover {
+    box-shadow: 0px 0px 7px 3px #0c122ccf;
+}
+
+.steps .well h4 {
+    padding-bottom: 10px;
+}
+
+.why {
+    height: 530px;
+    background-image: url("../images/back.jpg");
+    background-repeat: round;
+}
+
+.why .well {
+    background: #ffffff2e;
+    height: auto;
+    box-shadow: 0px 0px 2px 0px;
+    display: block;
+    text-align: -webkit-center;
+}
+
+.why .well:hover {
+    box-shadow: 0px 0px 7px 3px #0c122ccf;
+
+}
+
+.why .well hr {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid #0d112d;
+
+}
+
+.why .well img {
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    background: #0c122c;
+    height: 375px !important;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.testimonials .text {
+    color: #fff;
+}
+
+.testimonials .well {
+    background: #090f27a3 !important;
+    height: 200px !important;
+}
+
+.testimonials .well img {
+    float: left;
+    width: 30%;
+    padding-right: 10px;
+}
+
+.testimonials .well .content p {
+    color: #fff;
+}
+
+.testimonials .well .back-up {
+    color: #fff;
+}
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px !important;
+    margin-right: -19px;
+}
+
+.carousel-indicators li {
+    border: none !important;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 1px grey;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.feedback p {
+    text-align: center !important;
+}
+
+.feedback {
+    height: auto;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.item blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-right: 10px;
+}
+
+.emergency .btn-danger {
+    margin-top: 10px;
+    width: 112%;
+}
+
+.mobile-app h2 {
+    margin: 45px 0px;
+}
+
+.mobile-app a {
+    margin: 15px;
+}
+
+.emergency {
+    margin-top: 35px;
+}
+
+.call button {
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+.call button:before {
+    font-family: FontAwesome;
+    content: "\f095";
+    position: absolute;
+    top: 11px;
+    right: -30px;
+    transition: all 200ms ease;
+}
+
+.call button:hover:before {
+    right: 7px;
+}
+
+.emergency img {
+    width: 132px;
+    height: 72px;
+    padding: 15px;
+}
+
+.emergency-call img {
+    margin: 10px 0px;
+}
+
+.create {
+    width: 32%;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.create i {
+    font-size: 30px;
+    color: #3379b7;
+}
+
+.subscribe .form-control {
+    width: 77%;
+    border-radius: 0px;
+}
+
+.subscribe .btn-primary {
+    float: right;
+    margin-top: -45px;
+    border-color: #cccccc;
+    border-left: none;
+    margin-right: 72px;
+    height: 45px;
+
+}
+
+.footer {
+    margin: 30px 0px 0px 0px;
+    background: #0d112d;
+    padding: 0px;
+    color: white;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #bfc1cc;
+}
+
+.footer-dash {
+    background: #fff !important;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.footer-dash p {
+    color: #4e4e4e !important;
+    line-height: 2.0;
+}
+
+.footer-dash li h4 {
+    margin-bottom: 20px;
+    color: #000 !important;
+}
+
+.footer-dash li {
+    margin-bottom: 10px;
+}
+
+.footer-dash a {
+    color: #4e4e4e !important;
+}
+
+.footer-dash img {
+    margin-top: -25px;
+}
+
+.pull-right a {
+    color: #ee323a;
+}
+
+.pull-right a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hvr-underline-from-center:before {
+    background-color: #bfc1cd !important;
+}
+
+.map {
+    margin-top: 7pc;
+}
+
+.map p {
+    text-align: center;
+}
+
+.footer img {
+    width: 100px;
+}
+
+/*.........Login css...........*/
+.parsley-errors-list li {
+    color: red;
+}
+
+input.parsley-error {
+    color: #555 !important;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+input.parsley-success {
+    color: #555 !important;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.form-label:after {
+    content: " *";
+    color: rgb(238, 50, 58);
+}
+
+.email-login {
+    margin-bottom: 60px !important;
+    background: #fff;
+    padding: 5%;
+    width: 50%;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 1px 1px 9px 1px grey;
+    margin: 40px auto;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.email-login h4 {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.btn-success {
+    color: black;
+    background: transparent;
+    border-color: grey;
+}
+
+.btn-primary {
+    color: black;
+    background: transparent;
+    border-color: grey;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border-color: grey;
+}
+
+.btn-contact {
+    width: 100%;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    border-color: grey;
+    color: #000;
+    z-index: 0;
+
+}
+
+.btn-contact:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(24, 29, 54) !important;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform .3s ease-out;
+}
+
+.btn-contact:hover:before {
+    transform: scaleX(1);
+}
+
+.hvr-sweep-to-bottom, .hvr-sweep-to-right {
+    border-radius: 2px;
+}
+
+.hvr-sweep-to-bottom:before, .hvr-sweep-to-right:before {
+    background-color: rgb(24, 29, 54) !important;
+    color: #fff !important;
+}
+
+.login-button button, .email-login button, .contact-number button {
+    color: #000;
+    font-weight: bold;
+}
+
+.email-login .form-control {
+    border-radius: 0px;
+    height: 45px;
+}
+
+.form-control {
+    border-radius: 0px;
+    height: 45px;
+}
+.profile-form div.clearfix {
+      margin-top: -2px; 
+}
+.profile-form .form-group textarea.form-control {
+    min-height: 88px;
+}
+
+.social-link h4 {
+    text-align: center;
+}
+
+.social-link img {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-button {
+    margin-bottom: 10px;
+}
+
+.login-button a {
+    color: white !important;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.biker-login {
+    background-color: #0D112D;
+    height: auto;
+    padding-top: 96px;
+}
+
+.sign-up-link {
+    margin-top: 15px;
+    color: #2da8ef;
+    font-size: 14px;
+}
+
+.center-text {
+    font-size: 12px;
+}
+
+.main h1 {
+    font-size: 40px;
+    margin-top: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.main .right {
+    float: right;
+}
+
+.main button {
+    border-radius: 2px !important;
+    width: 150px;
+    height: auto;
+    margin: 10px 0px;
+}
+
+.main img {
+    height: 40px;
+}
+
+.alert-info {
+    height: auto;
+    width: 50%;
+}
+
+.alert-info p {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+/* Forgot css*/
+
+.forgot-well {
+    margin-top: 60px;
+    margin-bottom: 60px !important;
+    background: #fff !important;
+    padding: 2%;
+    width: 75%;
+    height: 200px;
+    border: 4px solid #0c122c !important;
+    box-shadow: 5px 5px 5px grey !important;
+    margin-left: 12% !important;
+}
+
+.forget-login {
+    background-color: #0D112D;;
+    /*background-attachment: fixed;*/
+    height: 650px;
+    padding-top: 5px;
+}
+
+/*............dashboard css...........*/
+.dashboard-menu .active {
+    background-color: #00000070;
+}
+
+.cart {
+    margin-top: -14px;
+}
+
+.dashboard-main {
+    margin-left: -40px;
+}
+
+.dashboard-menu {
+
+    text-align: center;
+    line-height: 4.0;
+    margin-top: 85px;
+    box-shadow: 2px -1px 4px 2px grey;
+    background-color: #0d112d;
+    width: 75%;
+    padding-bottom: 10px;
+
+}
+
+.dashboard-menu h4 {
+    padding: 28px 0px 16px 0px;
+}
+
+.dashboard-menu h4 a {
+    color: white;
+}
+
+.dashboard-menu li a {
+    color: white;
+    height: 48px;
+}
+
+.dashboard-menu li a:hover {
+    color: #bfc1cd;
+}
+
+.dashboard-menu li a p {
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+}
+
+.dashboard-menu hr {
+    margin-top: 0px;
+}
+
+.dashboard-content {
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.number {
+    border: 1px solid grey;
+    width: 18px;
+    height: 18px;
+    color: red;
+    border-radius: 50%;
+    float: right;
+    margin: -45px 0px 0px 32px;
+    text-align: center;
+}
+
+.number p {
+    font-size: 9px;
+    margin-top: -2px;
+    font-family: 'Exo2-Bold';
+    text-align: center !important;
+}
+
+/*...........Profile css............*/
+.profile-content, .servicing-content {
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.profile-photo h4 {
+    text-align: center;
+}
+
+.profile-content h1 {
+    margin-bottom: 40px;
+}
+
+.profile-form {
+    margin-top: 10px;
+}
+
+.clearfix {
+    width: 5%;
+}
+
+.profile-photo, .profile-photo img {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.profile-photo button {
+    margin-top: 20px;
+}
+
+.profile-form button {
+    margin-top: 35px;
+    margin-right: 39px;
+    float: right;
+}
+
+.profile-content .form-horizontal .form-group {
+    margin-left: 25px;
+}
+
+/*.........servicing css..........*/
+.bike-list h4 {
+    margin-left: 5px;
+    float: left;
+    color: #6b6a6a;
+}
+
+.bike-list a {
+    color: #000000;
+    margin-left: 7px;
+
+}
+
+.bike-list ul li h1 {
+    float: left;
+    margin-left: 15px;
+    font-size: 30px;
+    line-height: 11px;
+}
+
+.bike-list ul li {
+    display: inline-block;
+}
+
+.bike-list ul {
+    margin-left: 22px;
+}
+
+.fa-arrow-left {
+    margin-top: 18px;
+}
+
+.bike-servicing {
+    box-shadow: 0px 0px 7px 1px;
+    height: 290px;
+    background-color: whitesmoke;
+    margin: 0px 0px 45px 0px;
+}
+
+.bike-servicing1 {
+    box-shadow: 0px 0px 7px 1px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 0px 0px 45px 0px;
+    padding-bottom: 20px;
+}
+
+.bike-servicing1 img {
+    height: auto;
+    padding: 50px;
+    margin-bottom: -20px;
+}
+
+.select-bike-servicing {
+    box-shadow: 0px 0px 7px 1px;
+    height: 290px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin: 30px 0px 45px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.select-bike-servicing h4, .bike-servicing h4 {
+    color: #0d112d;
+    margin: 10px 0px;
+}
+
+.select-bike-servicing button, .bike-servicing button {
+    margin: 10px 10px;
+}
+
+.select-bike-servicing img, .bike-servicing img {
+    margin-top: -20px;
+    height: 185px;
+    width: 300px;
+}
+
+.add-bike {
+    height: 290px;
+    width: 200px;
+    margin: 30px 0px 45px 0px;
+    padding: 58px 0px 0px 0px;
+    border: 2px dashed grey;
+}
+
+.add-bike h1 {
+    font-size: 50px;
+    color: #000000;
+}
+
+.add-bike h3 {
+    color: #000000;
+}
+
+/*---------------choose address css----------*/
+
+.radio {
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin: 2px 0;
+    width: 30%;
+    margin-right: 30px;
+    box-shadow: 1px 1px 7px 1px grey;
+    color: #0d112d;
+    padding: 20px 0px;
+}
+
+.breakdown-group {
+    margin-left: -60px;
+}
+
+.breakdown {
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin: 2px 8px 15px 60px;
+    width: 130px;
+    height: 174px;
+    box-shadow: 1px 1px 7px 1px grey;
+    color: #0d112d;
+    padding: 10px 0px;
+}
+
+.emergency-break {
+    margin-left: 27px !important;
+}
+
+.breakdown h3 {
+    font-size: 15px;
+}
+
+.breakdown img {
+    width: 80px;
+    height: 69px;
+    margin: 10px 0px;
+}
+
+.radio.selected, .breakdown.selected {
+    /*background-color: rgba(13, 17, 45, 0.8509803921568627);*/
+    /*color: white;*/
+    /*box-shadow: 1px 1px 5px 4px grey;*/
+    border: 1.5px solid rgba(13, 17, 45, 0.8509803921568627);
+}
+
+.dashboard-content h2 {
+    padding: 30px 0px;
+}
+
+.radio p {
+    text-align: center;
+}
+
+.radio i {
+    font-size: 50px;
+}
+
+.comment {
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.next button {
+    float: right;
+    margin: 95px 25px;
+    width: 25%;
+
+}
+
+/*-------------------Subscription css----------------------*/
+.silver, .gold, .platinium {
+    box-shadow: 0px 0px 2px 1px;
+    padding: 0px 20px 0px 25px;
+    height: 350px;
+    width: 260px;
+    margin-bottom: 40px;
+
+}
+
+.silver:hover, .gold:hover, .platinium:hover {
+    box-shadow: 0px 0px 7px 3px #0c122ccf;
+
+}
+
+.silver img, .gold img, .platinium img {
+    width: 260px;
+    height: 350px;
+    margin-left: -25px;
+    z-index: -1;
+    position: absolute;
+}
+
+.silver h1 {
+    font-size: 35px;
+    display: block;
+    color: rgb(188, 198, 204);
+    text-shadow: 0 13.36px 8.896px #13121266, 0 -2px 1px #423e3e;
+    letter-spacing: 12px;
+}
+
+.silver h3 {
+    content: "*";
+}
+
+.gold h1 {
+    font-size: 35px;
+    display: block;
+    color: #ffd802;
+    text-shadow: 0 13.36px 8.896px #13121266, 0 -2px 1px #423e3e;
+    letter-spacing: 12px;
+}
+
+.platinium h1 {
+    font-size: 35px;
+    display: block;
+    color: #E5E4E2;
+    text-shadow: 0 13.36px 8.896px #13121266, 0 -2px 1px #000000f2;
+    letter-spacing: 7px;
+}
+
+.silver h3:after, .gold h3:after, .platinium h3:after {
+    content: "*";
+    color: rgb(238, 50, 58);
+}
+
+.silver h6, .gold h6, .platinium h6 {
+    float: right;
+    color: #e80e0eb3;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.gold p, .silver p, .platinium p {
+    line-height: 1.1;
+    font-size: 13px;
+    text-align: left;
+}
+
+/*---------------404 page css------------*/
+
+.broken {
+    background: url(../images/404-broken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+}
+
+.broken h1 {
+    color: #dd2129;
+    font-size: 60px;
+}
+
+.broken h3, .broken h4 {
+    color: white;
+}
+
+.broken a button {
+    color: white;
+}
+
+/* .........Agent Registration..............*/
+.agent-registration {
+    margin-top: 10pc;
+}
+
+.agent-registration input {
+    text-align: center;
+}
+
+.connect {
+    box-shadow: 4px -3px 4px 0px grey;
+    padding: 20px;
+    line-height: 1.9;
+    background-color: #0d112d;
+    color: white;
+}
+
+.about-us {
+    margin-top: 8pc;
+}
+
+.about-us img {
+    border-radius: 10px;
+    box-shadow: 3px -1px 3px 0px #3b3f54;
+    margin-bottom: 30px;
+}
+
+.about-us h3, .about-us h4 {
+    color: #00000099;
+    line-height: 1.3;
+}
+
+.choose-bike {
+    height: 290px;
+    width: 200px;
+    margin-bottom: 30px;
+
+}
+
+.choose-bike img {
+    height: 200px;
+    width: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.proceed-next button {
+    margin-right: 30px;
+}
+
+.contact-send button {
+    width: 113px;
+}
+
+/*-------------- Media Queries --------------------------*/
+
+@media only screen and (max-width: 2800px) {
+    .testimonials {
+        height: 300px;
+    }
+
+    .testimonials .well {
+        height: 340px;
+    }
+
+    
+
+    #myModal .modal-content {
+        margin-top: 11px;
+    }
+
+
+    .main-banner h1 {
+        margin-top: 400px;
+    }
+
+    .broken {
+        height: 1000px;
+    }
+
+    .bike-servicing1 img {
+        padding: 94px;
+        margin-bottom: -52px;
+    }
+
+}
+@media only screen and (max-width: 2400px) {
+    .testimonials {
+        height: 300px;
+    }
+
+    .testimonials .well {
+        height: 340px;
+    }
+
+   
+
+    #myModal .modal-content {
+        margin-top: 11px;
+    }
+
+ 
+    .main-banner h1 {
+        margin-top: 100px;
+    }
+
+    .broken {
+        height: 1000px;
+    }
+
+    .bike-servicing1 img {
+        padding: 94px;
+        margin-bottom: -52px;
+    }
+
+}
+/*@media only screen and (min-width: 2000px) {*/
+/*.main-banner {*/
+/*width: 100%;*/
+/*height: 750px;*/
+/*padding-top: 150px;*/
+/*}*/
+/*.main-banner h1 {*/
+/*margin-top: 200px;*/
+/*}*/
+
+/*#loader {*/
+/*height: 1000px;*/
+/*}*/
+
+/*#myModal .modal-content {*/
+/*margin-top: 15px;*/
+/*}*/
+
+/*.broken {*/
+/*height: 1000px;*/
+/*}*/
+
+/*.bike-servicing1 img {*/
+/*padding: 94px;*/
+/*margin-bottom: -52px;*/
+/*}*/
+
+/*}*/
+
+@media only screen and (max-width: 2000px) {
+    .testimonials {
+        height: 300px;
+    }
+
+    .testimonials .well {
+        height: 340px;
+    }
+
+   
+    #myModal .modal-content {
+        margin-top: 11px;
+    }
+    .main-banner h1 {
+        margin-top: 80px;
+    }
+
+    .broken {
+        height: 1000px;
+    }
+
+    .bike-servicing1 img {
+        padding: 94px;
+        margin-bottom: -52px;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+    
+
+    #myModal .modal-content {
+        margin-top: 7pc;
+    }
+
+    .main-banner h1 {
+        margin-top: 115px;
+    }
+
+    .bike-servicing1 img {
+        padding: 50px;
+        margin-bottom: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .dashboard-content {
+        margin-top: 75px;
+        margin-left: 25px;
+    }
+
+    .col-lg-4 {
+        margin-left: 0px;
+        margin-right: 75px;
+    }
+
+   
+
+    .main-banner h1 {
+        margin-top: 150px;
+    }
+
+    /*.main-banner {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*}*/
+    .why {
+        height: 550px;
+    }
+
+    .why .well hr {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .testimonials {
+        height: 330px;
+    }
+
+    .testimonials .well {
+        height: 340px;
+    }
+
+    .radio {
+        width: 28%;
+    }
+
+    .carsoul-logo {
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .dashboard-content {
+        margin-top: 75px;
+        margin-left: 25px;
+    }
+
+    .col-lg-4 {
+        margin-left: 0px;
+        margin-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .dashboard-content {
+        margin-top: 75px;
+        margin-left: 25px;
+    }
+
+    .col-md-4 {
+        margin-left: 0px;
+        margin-right: 75px;
+    }
+
+    .brands img {
+        padding-top: 20px;
+    }
+
+    .steps {
+        margin-top: 35px;
+        width: 100%;
+        height: 600px;
+        background: #ecf0f1;
+        background-image: url("../images/Untitled.jpg");
+        background-repeat: round
+    }
+
+    .why {
+        background: #ecf0f1;
+        height: 850px;
+        background-image: url("./images/back.jpg");
+        background-repeat: round;
+    }
+
+    .testimonials {
+        background: #0c122c;
+        height: 300px;
+    }
+
+    .testimonials .well {
+        height: 330px;
+    }
+
+    .breakdown {
+        margin: 30px 0px 2px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+
+    .navbar-toggle {
+        padding: 10px 10px;
+        margin-top: 10px !important;
+    }
+
+    ul.nav.navbar-nav.navbar-right {
+        background: rgba(0, 0, 0, 0.83);
+        text-align: center;
+        height: 55px;
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 87%;
+    }
+
+    .caret {
+        margin: 0px;
+    }
+
+    img.img.img-responsive.img-circle {
+        height: 42px;
+        width: 42px;
+
+    }
+
+    .navbar-nav > li > .dropdown-menu {
+        margin-right: 0px;
+        margin-top: -33px !important;
+    }
+
+    .brands {
+        display: none;
+    }
+
+    .navbar-header {
+        background: #0c122c;
+    }
+
+    .navbar-header a img {
+        padding-left: 30px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        height: 55px;
+    }
+
+    .carsoul-logo {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .steps {
+        margin-top: 35px;
+        width: 100%;
+        height: 700px !important;
+        background: white;
+    }
+
+    .steps .well {
+        background: #fff;
+        height: auto;
+        width: 100%;
+    }
+
+    .why {
+        background: transparent;
+        height: auto;
+        background-image: none;
+        margin-bottom: 30px;
+
+    }
+
+    .why .well hr {
+        width: 21%;
+    }
+
+    .mobile-app h2 {
+        margin: 0px;
+    }
+
+    .testimonials {
+        background: #0c122c;
+        height: 300px;
+    }
+
+    .testimonials .well {
+        background: #fff;
+        height: 320px;
+    }
+
+    .mobile-app {
+        margin-top: 30px;
+    }
+
+    /*....login css...*/
+    /*.email-login{*/
+    /*margin-left: 30px;*/
+    /*}*/
+    /*.........dashboard css........*/
+    .profile-content, .servicing-content, .add-bike {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+
+    .dashboard-content {
+        margin-top: 75px;
+        margin-left: -15px;
+    }
+
+    .radio {
+        margin: 32px 0px 32px 40px;
+        width: 62% !important;
+    }
+
+    .comment {
+        margin: 20px 0px 0px 125px;
+        width: 64%;
+    }
+
+    .next button {
+        margin: 10px 20px 10px 202px;
+        width: 25%;
+        float: left;
+    }
+
+    .breakdown {
+        margin: 25px 0px 2px 89px;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+
+    .fullscreen-bg {
+        width: 0px;
+        height: 0px;
+    }
+
+    .btn-danger {
+        width: 100%;
+    }
+
+    .create {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .modal-content {
+        margin-left: 0px !important;
+    }
+
+    .emergency .btn-danger {
+        width: 43%;
+    }
+
+}
+
+
+.carousel-indicators {
+    bottom: -40px !important;
+}
+
+.carousel-control {
+    width: 0% !important;
+}
+
+.scrollToTop {
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 75px;
+    right: 40px;
+    display: none;
+    background: url('./images/icon2.png') no-repeat 0px 20px;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 400px;
+    margin: 2em 0 0;
+}
+
+.contact-grdl {
+    padding: 0 !important;
+}
+
+.contact-grdl span {
+    color: #BDBDBD;
+    font-size: 1.5em;
+}
+
+.contact-grdr ul li {
+    list-style-type: none;
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 1em;
+}
+
+.address {
+    margin: 2em 0;
+}
+
+.contact-grdr ul li a {
+    color: rgb(13, 17, 45);
+    text-decoration: none;
+    /*display: block;*/
+    margin: 0.6em 0 0;
+    font-weight: 400;
+}
+
+.contact-grdr ul li a:hover {
+    color: #999;
+}
+
+.contact-grid input[type="text"], .contact-grid input[type="email"], .contact-grid textarea {
+    outline: none;
+    border: 1px solid #E9E9E9;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: 14px;
+    padding: 12px 10px;
+}
+
+.contact-grid textarea {
+    min-height: 125px;
+    resize: none;
+    margin: 0 0 .2em;
+}
+
+.contact-grid input[type="email"] {
+    margin: .5em 0;
+}
+
+.contact-grid input[type="submit"] {
+    outline: none;
+    border: none;
+    width: 100%;
+    background: #1ABC9C;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 12px 0px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.contact-grid input[type="submit"]:hover {
+    background: #1ABC9C;
+}
+
+.contact-grids {
+    margin: 3em 0 0;
+}
+
+.text-black {
+    color: #000;
+}
+
+[class*="col-sm-6"] {
+    margin-bottom: 5px;
+}
+
+/** Newsletter **/
+.newsletter h4 {
+    text-align: left;
+}
+
+.newsletter a li:hover {
+    color: #0d163a !important;
+    text-decoration: none;
+}
+
+.join-newsletter {
+    position: relative;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.join-newsletter .btn-default {
+    float: left;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border-left: 1px solid #8080805c;
+}
+
+.input-group {
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.input-type {
+    float: left;
+    margin: 0;
+    width: 70%;
+}
+
+.input-type input {
+    height: 45px;
+    width: 100%;
+}
+
+.input-link {
+    float: right;
+    margin-right: 0;
+    margin-left: 0;
+    width: 30%;
+}
+
+.input-link a {
+    width: 100%;
+    padding: 1px 21px;
+    padding-top: 5%;
+    font-size: 16px;
+    min-height: 45px;
+    background: transparent;
+    border-color: grey;
+    color: #000;
+
+}
+
+.input-link a:hover {
+    color: #fff !important;
+}
+
+.newsletter1 {
+    padding: 5.45em 2em 3.3em 0.5em;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+}
+
+.newsletter1 h3 {
+    font-size: 1.5em;
+    color: #CBCBCB;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsletter1 h3 span {
+    font-size: 1.5em;
+    top: -1em;
+    left: 1.8em;
+    color: #F11E0F;
+}
+
+.transfer-bike {
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-top: 30px;
+    padding: 20px;
+}
+@media only screen and (max-width: 572px) {
+    .testimonials {
+        height: 370px !important;
+    }
+
+    .testimonials .well {
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .main-banner {
+        height: 430px;
+
+    }
+
+    .main-banner h1 {
+        margin-top: 90px;
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .main-banner select {
+        border-radius: 5px;
+        margin-top: 25px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .main-banner button {
+        margin-top: 35px;
+        width: 160px;
+        height: 50px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .text h2 {
+        font-size: 24px;
+    }
+
+    .why .well img {
+        margin-bottom: 0px;
+    }
+
+    .text button {
+        width: 160px;
+        height: 45px;
+    }
+
+    .Emergency-breakdown img.img1 {
+        height: 400px;
+    }
+
+    .Emergency-breakdown h3 {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .steps {
+        margin-top: 20px;
+        width: 100%;
+        height: 730px !important;
+    }
+
+    .testimonials .well {
+        height: 250px !important;
+    }
+
+    .testimonials {
+        height: 400px !important;
+    }
+
+    .text h2 {
+        font-size: 22px;
+    }
+
+    .text button {
+        width: inherit;
+        height: auto;
+    }
+
+    .main-banner h1 {
+        margin-top: 80px;
+        font-size: 28px;
+    }
+
+    .main-banner select {
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .main-banner button {
+        margin-top: 30px;
+        width: 150px;
+        height: 40px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .main-banner {
+        height: 430px;
+    }
+
+    .comment {
+        margin: 20px 0px 0px 84px;
+        width: 64%;
+    }
+
+    .next button {
+        margin: 10px 20px 10px 132px;
+        width: 25%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .testimonials {
+        background: #0c122c;
+        height: 330px;
+    }
+
+    .testimonials .well {
+        background: #fff;
+        height: 380px;
+
+    }
+
+    .emergency .btn-danger {
+        width: 65%;
+    }
+
+    .create {
+        width: 76%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .why .well {
+        height: auto;
+    }
+
+    .steps .well {
+        height: auto;
+    }
+
+    .why {
+        height: 1300px !important;
+    }
+
+    .steps {
+        height: 870px !important;
+    }
+
+    .testimonials .well {
+        height: 280px !important;
+    }
+
+    .testimonials {
+        height: 440px !important;
+    }
+
+    ul.nav.navbar-nav.navbar-right {
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .main-banner button {
+        margin-left: -10px;
+        width: 150px;
+        height: 35px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .main-banner {
+        height: 420px;
+    }
+
+    .main-banner h1 {
+        margin-top: 80px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 346px) {
+    .steps .well1 {
+        height: auto;
+    }
+
+    .testimonials .well {
+        height: 299px !important;
+    }
+
+    .testimonials {
+        height: 480px !important;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+
+    .testimonials .well {
+        background: #fff;
+        height: 350px;
+    }
+
+    /*.........dashboard css........*/
+    .dashboard-content, .profile-content, .servicing-content, .add-bike {
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .padd {
+        margin-top: 5px;
+    }
+
+    .form-group {
+        margin-top: 5px;
+    }
+
+    .steps .well1 {
+        height: auto !important;
+    }
+
+    .testimonials {
+        background: #0c122c;
+        height: 350px;
+    }
+
+    .testimonials .well {
+        background: #fff;
+        height: 435px;
+    }
+}
+@media only screen  and (max-width: 844px) {
+    ul.nav.navbar-nav.navbar-right {
+        width: 545px;
+
+    }
+
+    ul.nav.navbar-nav.navbar-right li a {
+        padding: 10px 5px 5px 10px;
+    }
+
+    .navbar-nav > li > .dropdown-menu {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    img.img.img-responsive.img-circle {
+        margin-left: 0px;
+        margin-bottom: 2px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    ul.nav.navbar-nav.navbar-right {
+        margin-right: 5px;
+    }
+
+    ul.nav.navbar-nav.navbar-right li a {
+        padding: 20px 15px 5px 15px;
+    }
+}
+
+@media screen  and (max-height: 600px) {
+        .main-banner {
+            height: 350px;
+        }
+         .main-banner h1 {
+            margin-top: 65px;
+        }
+}
+
+@media screen and (min-height: 600px) and (max-height: 700px) {
+        .main-banner {
+            height: 400px;
+        }
+         .main-banner h1 {
+            margin-top: 100px;
+        }
+}
+@media screen and (min-height: 701px) and (max-height: 750px ) {
+     .main-banner {
+         height: 500px;
+    }
+     .main-banner h1 {
+         margin-top: 100px;
+    }
+}
+@media screen and (min-height: 751px) and (max-height: 800px) {
+        .main-banner {
+            height: 550px;
+        }
+         .main-banner h1 {
+            margin-top: 200px;
+        }
+}
+@media screen and (min-height: 801px) and (max-height: 900px) {
+        .main-banner {
+            height: 600px;
+        }
+
+        .main-banner h1 {
+            margin-top: 230px;
+        }
+}
+    
+@media screen and (min-height: 901px) and (max-height: 1000px) {
+    .main-banner {
+        height: 700px;
+    }
+    .main-banner h1 {
+        margin-top: 300px;
+    }    
+}
+@media screen and (min-height: 1001px) and (max-height: 1079px) {
+    .main-banner {
+        height: 800px;
+    }
+    .main-banner h1 {
+            margin-top: 370px;
+    }
+}
+ 
+@media screen  and (min-height: 1080px)  and (max-height: 1349px) {
+    .dashboard-main {
+        height: 800px;
+    }
+
+    .main-banner {
+        height: 880px;
+    }
+    .main-banner h1 {
+        margin-top: 375px;
+    }
+    
+}
+@media screen  and (min-height: 1350px)  and (max-height: 1500px) {
+    .dashboard-main {
+        height: 945px;
+    }
+    .main-banner {
+        height: 1120px;
+    }
+    .main-banner h1 {
+        margin-top: 425px;
+    }
+}
+
+@media screen  and (min-height: 1501px)  and (max-height: 1600px) {
+    .dashboard-main {
+        height: 1045px
+    }
+    .main-banner {
+        height: 1300px;
+    }
+    .main-banner h1 {
+        margin-top: 550px;
+    }
+
+}
+@media screen  and (min-height: 1601px)  and (max-height: 1700px) {
+    .dashboard-main {
+        height: 1145px
+    }
+    .main-banner {
+        height: 1300px;
+    }
+    .main-banner h1 {
+        margin-top: 550px;
+    }
+    .contanct {
+        height: 1230px;
+    }
+
+}
+
+@media screen and (min-height: 1701px)  and (max-height: 1800px) {
+    .dashboard-main {
+        height: 1245px
+    }
+    .main-banner {
+        height: 1400px;
+    }
+    .main-banner h1 {
+        margin-top: 550px;
+    }
+    .contact {
+        height: 1330px;
+    }
+
+}
+@media screen and (min-height: 1801px) and (max-height: 1900px) {
+    .dashboard-main {
+        height: 1345px
+    }
+    .main-banner {
+        height: 1500px;
+    }
+    .main-banner h1 {
+        margin-top: 650px;
+    }
+    .contact {
+        height: 1430px;
+    }
+}
+
+@media screen and (min-height: 1901px)  and (max-height: 2000px) {
+    .dashboard-main {
+        height: 1445px
+    }
+     .main-banner {
+        height: 1700px;
+    }
+    .main-banner h1 {
+        margin-top: 800px;
+    }
+    .contact {
+        height: 1530px;
+    }
+}
+@media screen and (min-height: 2001px)  and (max-height: 2200px) {
+    .dashboard-main {
+        height: 1645px
+    }
+     .main-banner {
+        height: 1900px;
+    }
+    .main-banner h1 {
+        margin-top: 950px;
+    }
+    .contact {
+        height: 1730px;
+    }
+
+}
+@media screen and (min-height: 2201px) {
+    .dashboard-main {
+        height: 1845px;
+    }
+     .main-banner {
+        height: 1700px;
+    }
+    .main-banner h1 {
+        margin-top: 1100px;
+    }
+    .contact {
+        height: 1900px;
+    }
+}
+
+
+
+/*................ index.html main-banner ..................*/
+
+.banner-contents {
+    height: 100vh;
+    position: relative;
+}
+.main-banner {
+    width: 100%;
+}
+.carsoul-logo {
+    height: 200px; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 35px 0 10px 0;
+}
+
+    
+ 

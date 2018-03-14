@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>3rd Wheel</title>
+  					<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">	
+		<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+		<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	
+  	</head>
+  	<div id="myModal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+    	<!-- Modal content-->
+    	<div class="modal-content">
+      		<p>Dear Users,</p>
+      		<p>ThirdWheel Nepal want to notify you that it's web beta design version has been launched. Our live version will be released on soon. The bike request service will be temporarily unavailable until live release date. However, you can request your order which will be processed after thirdwheel official release. Until then please keep browising our beta version. Thank you!</p>
+      		<p>-ThirdWheel Nepal Team </p>
+      <div class="modal-footer">
+        <center><button type="button" class="btn btn-primary hvr-sweep-to-right" data-dismiss="modal">Skip</button></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<body onload="myFunction()" style="margin:0;">	
+	
+  <!--Main Content -->    
+  <!--Navbar-->
+ <div id="loader"></div>
+ <div class="wrapper animated fadeIn" style="display:none;" id="myDiv">
+
+<nav class="navbar navbar-fixed-top">
+	<div class="container-fluid">
+	    <div class="navbar-header">
+	      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+	      	</button>
+	      	<a href="index.html"><img border="0" src="images/logo-white.png" width="80px" height="30px" class="img img-responsive"></a>
+	    </div>
+	    <div class="collapse navbar-collapse " id="myNavbar">
+		    <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="#HowItWorks">HOW IT WORKS </a></li>                        
+		        <li><a href="#REPAIR">REPAIR</a></li>
+		        <li><a href="contacts.html">CONTACT</a></li>
+		        <li><a href="#FAQs">FAQs</a></li>
+		        <li><a href="login.html" id="Login">LOGIN</a></li>
+		        <!--<li><a href="register.html"id="register">REGISTER</a></li>-->
+		        
+		        <!-- <li><a href="#CallNow"><img src="./images/callnow.png" width="100" height="35"></a></li> -->
+		    </ul>
+	    </div>
+	</div>
+</nav>
+
+<div class="banner-contents">  
+   <!--Main Banner -->
+    <div class="container-fluid">
+		<div class="row text-center main-banner">
+				<div class="col-md-12 col-lg-12">
+					<h1><b><strong>Two Wheelers Door Step Servicing</strong></b></h1>
+					<div class="select">
+						<select>
+							<option value="volvo"><b><u>Choose Location</u></b></option>
+							<option style="background-color: red;" class="tinkune" value="saab">Tinkune</option>
+							<option style="background-color: red;" value="opel">Koteshwor</option>
+							<option style="background-color: red;" value="audi">Baneshor</option>
+							<option style="background-color: red;" value="audi">Thapathali</option>
+							<option style="background-color: red;" value="audi">Kupondole</option>
+							<option style="background-color: red;" value="audi">Gwarko</option>
+							<option style="background-color: red;" value="audi">Satdobato</option>
+							<option style="background-color: red;" value="audi">Nakkhu</option>
+						</select>
+						<select>
+							<option value="volvo"><b><u>Brand</u></b></option>
+							<option style="background-color: red;" value="saab">Yahama</option>
+							<option style="background-color: red;" value="opel">Honda</option>
+							<option style="background-color: red;" value="audi">Bajaj</option>
+							<option style="background-color: red;" value="audi">Suzuki</option>
+							<option style="background-color: red;" value="audi">Royal Enfield</option>
+							<option style="background-color: red;"value="audi">Others</option>
+						</select>
+						<select>
+							<option value="volvo"><b><u>Model</u></b></option>
+							<option style="background-color: red;" value="saab">FZs</option>
+							<option style="background-color: red;" value="opel">R15</option>
+							<option style="background-color: red;" value="audi">Bullet</option>
+							<option style="background-color: red;" value="audi">Unicorn</option>
+							<option style="background-color: red;" value="audi">Shine</option>
+							<option style="background-color: red;" value="audi">Pulsar</option>
+							<option style="background-color: red;" value="audi">Crossfire</option>
+							<option style="background-color: red;" value="audi">Others</option>
+						</select>
+					</div>					
+					<div>
+						<button class="btn btn-primary hvr-grow"><strong>BOOK NOW</strong></button>
+					</div>
+				</div>
+		</div>
+    </div>          
+   <!--Motorcycle companies logo-->       
+	<div class="container-fluid carsoul-logo">
+		<div class="row client-adv">
+		<div class="owl-carousel owl-theme">
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/ktm.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/bajaj.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/kawasaki.svg" class="img img-responsive" alt="" style="margin-top: 40px;" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/benelli.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/suzuki.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/yamaha.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/honda.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<div class="image-logo hvr-grow">
+					<a target="_blank" href="https://www.facebook.com/kindergarten.lavenderpreschool/"><img src="images/tvs.svg" class="img img-responsive" alt="" /></a>
+		  		</div>
+			</div>	
+		</div>
+		<div id="HowItWorks"></div>	
+		</div>
+	</div>
+</div>                
+     <!--Steps section -->
+     
+       <div class="container-fluid How" >  
+			<div class="row steps" >				 	
+				<div class='text text-center' >
+					<h2>How It Works</h2>
+				</div>
+				<div class="container">
+				<div class="row text-center">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="well well1 hvr-grow">
+						<h4><b>1. PICKING UP YOUR BIKE</b></h4>
+						<p>Your precious time shouldn’t be consumed for your two wheeler maintenance. Either from home or office or even on your way, Third wheel users are hassle free.</p> 
+						<p>One small buzz on your mobile app and Third wheel assistance is right there. </p>
+					</div>
+				</div>				
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="well hvr-grow">
+						<h4><b>2. SERVICING</b></h4>
+						<p>We have experts of automobile to deliver excellence at your doorsteps. </p>
+							<p>Reliable maintenance, reasonable price, quality assurance and customized care.</p>  
+							<p>Maintaining your Bike and timely servicing is our responsibility. </p>
+					</div>
+				</div>				
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 third">
+					<div class="well hvr-grow">
+						<h4><b>3. DELIVERY</b></h4>
+						<p>So where do you want your bike to be delivered? </p>
+							<p>When do you need your bike? </p>
+							<p>Third wheel ensures timely delivery of quality, you will never be disappointed.</p>
+					</div>
+				</div>
+				</div>
+
+				</div>
+			</div>
+          </div>  
+    <!--Repair Section -->
+
+           <div class="container-fluid Repair" id="REPAIR">
+			<div class="row" >
+				<div class='repair text-center' >
+					<h2>Not having time to do the stuffs? We love helping you.</h2>		
+					<button class="btn btn-primary hvr-sweep-to-right">Repair your bike</button>
+				</div>
+				
+			</div>
+          </div>
+     <!--Why Section -->
+        <div class="container-fluid why Servicing" id="Servicing">
+			<div class="row why">
+			 	<div class="text text-center"><h2>Why Thirdwheel?</h2></div>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="well hvr-grow">
+									<img src="./images/icon1.png" width="100" height="50">
+									<h4><b>EASY</b></h4>
+									<h5><b>to use</b></h5>
+									<hr>
+									<p>Okay, you can just register at Third wheel and your bike maintenance service is just a click away from you.</p> 
+									<p>From towing till delivering a tidy and well conditioned bike till your doorstep is our concern. </p>
+								</div>
+						</div>				
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="well hvr-grow">
+									<img src="./images/icon2.png" width="100" height="50">
+									<h4><b>AFFORDABLE</b></h4>
+									<h5><b>as you want it</b></h5>
+									<hr>
+									<p>Costing will be almost equivalent to what you have been paying and the quality of accessories will be standard and uniform. </p>
+									<p>Don't waste your precious time for bike maintenance; Third wheel will do it for you.</p>
+								</div>
+						</div>				
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="well hvr-grow">
+									<img src="./images/icon1.png" width="100" height="50">
+									<h4><b>RELIABLE</b></h4>
+									<h5><b>to trust</b></h5>
+									<hr>
+									<p>We understand the importance of genuine parts of your engine.</p>
+									<p>Third wheel staffs will ensure that genuine spare parts has been fitted in your bike and deliver it to your doorstep. Its 100% trustworthy and reliable.  </p>
+								</div>
+						</div>				
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="well hvr-grow">
+									<img src="./images/icon2.png" width="100" height="50">
+									<h4><b>FOR YOU</b></h4>
+									<h5><b>to implement</b></h5>
+									<hr>
+									<p>Are you the one who love to ride bikes, travel through bikes for office and tours, is very busy and beleive time is money?</p>
+									<p>Then, ThirdWheel is for you! Cheers for a smooth ride and riders!</p>
+								</div>
+						</div>	
+					</div>			
+				</div>				
+			 </div>
+        </div>
+
+	
+       
+  <!--Emergency-breakdown Section-->         
+<div class="container Emergency-breakdown" >
+<div class="row">
+	<div class="col-md-5 col-lg-5 col-xs-12 text-center">
+		<img class="img img-responsive"src="images/ipad.png" >
+		<div class="row mobile-app">
+			<h2>Find us on </h2>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+			<a href="#"><center><img src="./images/apple-store.svg" class="img img-responsive hvr-grow" width="150px" height="75px"></center></a>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+			<a href="#"><center><img src="./images/play-store.svg" class="img img-responsive hvr-grow" width="150px" height="75px"></center></a>
+			</div>
+		</div>	
+	</div>
+				
+	<div class="col-md-7 col-lg-7 col-xs-12 text-center">
+	<h2>In case of Emergency</h2>
+	<center><div class="row emergency">
+			<div class="col-md-2"></div>
+			<div class="col-md-3 call"><a href="tel:+977-01-6201553"><button class="btn btn-danger btn-lg hvr-grow">Call</button></a></div>
+			<div class="col-md-2"><h3>OR</h3></div>
+			<div class="col-md-3"><button class="btn btn-danger btn-lg hvr-grow">Download app</button></div>	
+	</div></center>
+		<center><div class="row emergency-call">
+				<div class="col-md-12">
+					<img src="images/down-arrow.png" class="img img-responsive" width="50px" height="80px"> 
+					<div class="create">
+						<i class="fa fa-user-plus" aria-hidden="true"></i>
+						<h3>Signup/Login</h3>
+					</div>
+						<img src="images/down-arrow-right.png" class="img img-responsive" width="50px" height="80px">
+					<div class="create">
+						<img src="images/request.png" class="img img-responsive" width="60px" height="40px">
+						<h3>Emergency Request</h3>
+					</div>
+						<img src="images/down-arrow.png" class="img img-responsive" width="50px" height="80px">
+					<div class="create">
+						<img src="images/pickup.png" class="img img-responsive" width="60px" height="40px">
+						<h3>Pickup Bike</h3>
+					</div>
+				</div>
+			</div>	</center>			
+	</div>				
+</div>
+</div> 
+<!--Testimonials section -->
+<div class="container-fluid">
+    <div class="row feedback">
+		<h2>Our Happy Customers</h2>
+        <div class="col-md-12" data-wow-delay="0.2s">
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                
+
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner text-center">
+
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                        <blockquote>
+                            <div class="row ">
+                                <div class="col-sm-8 col-sm-offset-2">
+
+                                    <p>I didn't fully understand the value of landing page and click funnels; now I see them as one of the most important aspect of my marketing strategy. These recommended changes on my landing page increased my conversion 5X.</p>
+                                    <small>Rajendra Dongol, Sr. PHP Developer, ImpactIT</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+
+                                    <p>I didn't fully understand the value of landing page and click funnels; now I see them as one of the most important aspect of my marketing strategy. These recommended changes on my landing page increased my conversion 5X. </p>
+                                    <small>Someone famous, position, company</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <!-- Quote 3 -->
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+
+                                    <p>I didn't fully understand the value of landing page and click funnels; now I see them as one of the most important aspect of my marketing strategy. These recommended changes on my landing page increased my conversion 5X.</p>
+                                    <small>Someone famous, position, company</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+				<!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img img-responsive " src="images/arjun.jpg" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="1"><img class="img img-responsive" src="images/bikram.jpg" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="2"><img class="img img-responsive" src="images/profile.jpg" alt="">
+                    </li>
+                </ol>
+            </div>
+        </div>
+ 	</div>   
+</div>
+	          
+  <!--Footer -->  
+  <hr>    
+    <!--Footer -->      
+<div class="container-fluid" id="FAQs">
+  <div class="container">
+    <div class="row footer-dash">
+        <div class="col-lg-5 col-sm-5 col-xs-12">
+        <center><img src="images/logo-title.png" width="150px" height="75px" class="img img-responsive"></center>
+        <p>We believe in seamless, automatic service triumps last minute, on-demand requests and with our less than 30-seconds booking, secure payment, and 100% money-back guarantee, ThirdWheel aims to be the easiest and most convenient way to provide your vehicle the service it deserves. </p>
+        <div class="row">
+          <div class="col-md-6">
+            <i class="fa fa-envelope" aria-hidden="true"><a href="mailto">&nbsp;support@thirdwheel.org</a></i>
+          </div>
+          <div class="col-md-6">
+            <i class="fa fa-phone" aria-hidden="true">&nbsp;+977 9841522160</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-sm-7 col-xs-12">
+        <div class="row newsletter">
+          <div class="col-md-4">
+            <h4><b>Company</b></h4>
+            <a href="#"><li>About Us</li></a>
+            <a href="#"><li>Press</li></a>
+            <a href="#"><li>Download App</li></a>
+              <a href="#"><li>Terms and Condition</li></a>
+          </div>
+          <div class="col-md-4">
+            <ul>
+                 <li><h4><b>Policies</b></h4></li>      
+                  <a href="#"><li>Terms and Condition</li></a>
+              <a href="#"><li>Privacy Policy</li></a>
+              <a href="#"><li>Refunds</li></a>
+              <a href="#"><li>FAQs</li></a>
+              </ul> 
+          </div>
+          <div class="col-md-4">  
+              <ul>
+                 <li><h4><b>Resources</b></h4></li>
+                  <a href="#"><li>Blog</li></a>
+                  <a href="#"><li>Ask Expert</li></a>
+                  <a href="#"><li>Know your Mechanic</li></a>
+                  <a href="#"><li>How it Works</li></a>
+              </ul>
+          </div>
+        </div>
+        <div class="row join-newsletter">
+			<div class="col-md-12 col-lg-12 col-sm-12">
+				<p><b>JOIN OUR NEWSLETTER</b></p>
+		    	<div class="input-group input-group-lg">
+		    		<div class="input-type">
+		    			<input type="text"  aria-describedby="sizing-addon1" placeholder="Enter your email.">
+		    		</div>
+		    		<div class="input-link">
+		    			<a href="#" class="btn btn-primary btn-contact btn-large hvr-sweep-to-right"><center>Submit</center></a>
+		    		</div>
+		    	</div>  
+			</div>
+		</div>     
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <p>Copyright 2017. All Rights Reserved</p>
+      </div>
+      <center><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <h5>BE SOCIAL WITH US</h5>
+        <a href="#" class="hvr-float-shadow"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+        <a href="#" class="hvr-float-shadow"><i class="fa fa-google-plus " aria-hidden="true"></i></a>
+        <a href="#" class="hvr-float-shadow"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+        <a href="#" class="hvr-float-shadow"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+        <a href="#" class="hvr-float-shadow"><i class="fa fa-instagram " aria-hidden="true"></i></a>
+      </div></center>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <p>Powered by<center><a href="#"><h6>Ango- ango1993@gamil.com</h6></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script src="https://use.fontawesome.com/3b9397b53d.js"></script>
+	
+	<script src="./js/jquery.bxslider.min.js"></script>
+	<link href="./css/jquery.bxslider.css" rel="stylesheet" />			 
+	<script src="./js/scripts.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+ 	$(document).ready(function() {
+  $('#myModal').modal('show');
+}); 
+ </script>
+<script >
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            transition: 0,
+            autoplay: true,
+            autoplayTimeout: 3000,
+        },
+        600:{
+            items:3,
+            transition: 0,
+            autoplay: true,
+                autoplayTimeout: 3000,
+        },
+        1000:{
+            items:6,
+            transition: 0,
+            autoplay: true,
+            autoplayTimeout: 3000,
+        }
+    }
+});	
+</script>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+<script>
+	var scroll = new SmoothScroll('a[href*="#HOME"]', {
+	speed: 1500,
+	offset: 0, 
+	
+});
+var scroll = new SmoothScroll('a[href*="#HowItWorks"]', {
+	speed: 1500,
+	offset: 0, 
+	
+});
+var scroll = new SmoothScroll('a[href*="#Servicing"]', {
+	speed: 1500,
+	offset: 0, 
+	
+});
+var scroll = new SmoothScroll('a[href*="#REPAIR"]', {
+	speed: 1500,
+	offset: 0, 
+	top: 500,
+});
+var scroll = new SmoothScroll('a[href*="#FAQs"]', {
+	speed: 1500,
+	offset: 0, 
+	
+});
+</script>
+<!-- 
+<script type="text/javascript"> 
+	var div_hght = $('.carsoul-logo').height();
+	var banner_hght = $('.banner-contents').height() - div_hght;
+	$(".main-banner").css('height',banner_hght);
+</script>
+ -->
+</html>	
+
