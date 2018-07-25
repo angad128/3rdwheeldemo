@@ -1574,10 +1574,7 @@ input.parsley-success {
     ul.nav.navbar-nav.navbar-right {
         background: rgba(0, 0, 0, 0.83);
         text-align: center;
-        height: 55px;
         margin-top: 0px;
-        margin-left: 40px;
-        width: 87%;
     }
 
     .caret {
